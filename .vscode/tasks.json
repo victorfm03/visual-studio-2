@@ -4,7 +4,7 @@
     {
       "label": "Sync with GitHub",
       "type": "shell",
-      "command": "git add . ; git commit -m 'Auto save changes' ; git push",
+      "command": "git add . ; git commit -m 'Auto save changes' ; git push -u origin main",
       "problemMatcher": [],
       "group": {
         "kind": "build",
